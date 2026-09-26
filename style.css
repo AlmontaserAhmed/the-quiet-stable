@@ -1,0 +1,14 @@
+:root { --bg: #f6efe3; --ink: #3b2f24; --muted: #7a6a58; --link: #8a4b1f; }
+@media (prefers-color-scheme: dark) { :root { --bg: #2a221b; --ink: #efe6d8; --muted: #b3a38f; --link: #e5a46b; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 Georgia, "Times New Roman", serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 20px 64px; }
+h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; }
+h2 { font-size: 1.25rem; margin: 32px 0 8px; }
+h3 { font-size: 1.05rem; margin: 20px 0 4px; }
+a { color: var(--link); }
+.meta, .back { color: var(--muted); font-size: 0.9rem; }
+.back a { color: var(--muted); }
+ul { padding-left: 1.2em; }
+.links { list-style: none; padding: 0; font-size: 1.1rem; }
+.links li { margin: 8px 0; }
